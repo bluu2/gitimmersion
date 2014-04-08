@@ -1,3 +1,3 @@
-# This is an unwanted but commited comment
+# Default is "World"
 name = ARGV.first || "World"
 puts "Hello, #{ARGV.first}!"
