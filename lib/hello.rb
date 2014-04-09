@@ -1,7 +1,7 @@
 require 'greeter'
 
-# Default is World
 puts "What's your name"
 my_name = gets.strip
 
-puts "Hello, #{my_name}!"
+greeter = Greeter.new(my_name)
+puts greeter.greet
